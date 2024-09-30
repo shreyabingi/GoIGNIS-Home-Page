@@ -115,7 +115,7 @@ label.mobile-menu {
         top: 80px;
         left: -100%;
         background-color: #FFF;
-        height: 100vh;
+        height: 90vh;
         width: 100%;
         display: block;
         text-align: center;
@@ -668,7 +668,7 @@ section#Contact {
 
     .service-description-sec.container {
         padding: 15px;
-        transform: translateY(-13%);
+        transform: translateY(-10%);
     }
 
     .desc-text.text_xs {
