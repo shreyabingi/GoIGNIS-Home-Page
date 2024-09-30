@@ -213,6 +213,9 @@ a{
 .pt_20{
 	padding-top: 20px;
 }
+.pt_5{
+	padding-top: 5px;
+}
 .pt_10{
 	padding-top: 10px;
 }
@@ -266,13 +269,13 @@ a{
     color: white;
 }
 button.slick-prev.slick-arrow {
-	top: -35%;
+	top: -50%;
     left: 5%;
     background: none;
 }
 
 button.slick-next.slick-arrow {
-	top: -35%;
+	top: -50%;
     right: 89%;
     background: none;
 }

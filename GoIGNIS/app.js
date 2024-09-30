@@ -6,7 +6,7 @@ $(document).ready(function(){
         arrows: true,
         autoplay: true,
         autoplaySpeed: 3000,
-        fade: true,
+        // fade: true,
         speed: 500
     });
 });
@@ -18,10 +18,10 @@ $(document).ready(function() {
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        fade: true,
+        // fade: true,
         asNavFor: '.service-description-sec',
         autoplay: true, 
-        autoplaySpeed: 2000 
+        autoplaySpeed: 4000 
     });
 
     $('.service-description-sec').slick({
@@ -29,10 +29,10 @@ $(document).ready(function() {
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        fade: true,
+        // fade: true,
         asNavFor: '.service-img-slider',
         autoplay: true, 
-        autoplaySpeed: 2000 
+        autoplaySpeed: 4000 
     });
 
     // Sync active class

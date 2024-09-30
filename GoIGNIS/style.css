@@ -10,7 +10,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px 0 60px;
+    padding: 0 90px 0 60px;
 }
 
 nav ul {
@@ -36,6 +36,7 @@ button.pill-btn {
     padding: 5px 20px;
     border-radius: 35px;
     border: 1px solid var(--color_primary);
+    margin-left: 20px;
 }
 .logo img {
     width: 150px;
@@ -246,7 +247,7 @@ span.span_txt.white {
         height: 50vh;
     }
     .content{
-        padding: 100px 20px 0 20px;
+        padding: 64px 20px 0 20px;
     }
 }
 
@@ -356,9 +357,9 @@ h2{
 
 /* contact - */
 .contact-form {
-    width: 52%;
+    width: 55%;
     background-color: white;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .contact-form h2 {
@@ -467,7 +468,7 @@ footer {
     background: #333333;
 }
 .footer-sec.container {
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 section#Contact {
@@ -504,10 +505,6 @@ section#Contact {
 .basic-flex {
     display: flex;
     gap: 30px;
-}
-
-.footer-ul p {
-    margin: 5px 0;
 }
 
 .footer-logo {
@@ -596,11 +593,13 @@ section#Contact {
 }
 .service-content-sec {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     position: absolute;
-    top: 35%;
-    gap: 68px;
-    justify-content: space-around;
+    padding: 0 20px;
+    top: 34%;
+    left: 8%;
+    gap: 0;
+    justify-content: space-between
 }
 .service-list p {
     padding-bottom: 10px;
@@ -608,7 +607,7 @@ section#Contact {
 .service-description-sec.container {
     background: #fff;
     border-radius: 20px;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
     padding: 40px;
     border: 2px solid #ebebeb; 
 }
@@ -661,14 +660,15 @@ section#Contact {
     }
    
     .service-content-sec {
-        /* flex-direction: column; */
         gap: 20px;
         top: 0%;
+        left: 0;
+        padding-top: 20px;
     }
 
     .service-description-sec.container {
         padding: 15px;
-        transform: translateY(-18%);
+        transform: translateY(-13%);
     }
 
     .desc-text.text_xs {
