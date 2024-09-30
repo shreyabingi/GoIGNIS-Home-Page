@@ -1,16 +1,3 @@
-$(document).ready(function(){
-    $('.banner-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        fade: true,
-        speed: 500
-    });
-});
-
 
 $(document).ready(function() {
     $('.service-img-slider').slick({
