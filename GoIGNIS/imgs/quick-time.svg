@@ -1,0 +1,39 @@
+            
+					<div id="flex-container">
+						<!-- slider controls -->
+						
+							<!-- slider items -->
+						<ul class="slider-items">
+							<li class="slider-item">
+								<img src="https://images.freeimages.com/images/large-previews/fa8/swimming-pool-3-1378269.jpg" alt="">
+								<div class="slider-content">
+								
+									<div class="flex-column">
+										<h2>Lorem ipsum <span class="blue">dolor</span><br/> amet and co</h2>
+										<h3>what a fantastic slider</h3>
+											<a href="" class="button">Find out more</a>
+									</div>
+								</div>
+							</li>
+							<li class="slider-item">
+								<img src="https://images.freeimages.com/images/large-previews/e67/swimming-pool-1399887.jpg" alt="">
+								<div class="slider-content">
+									<div class="flex-column">
+										<h2>it’s time to buy<br/> your awesome<br/><span class="blue"> cow!</span></h2>
+										<h3>1 M€ fo a cow!</h3>
+											<a href="" class="button">Find out more</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="slider-control">
+							<button class="prev font-14"><i class="material-icons">
+keyboard_arrow_left
+</i>
+              </button>
+							<button class="next font-14"><i class="material-icons">
+keyboard_arrow_right
+</i></button>
+						</div>
+					</div>
+				
