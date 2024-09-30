@@ -249,6 +249,10 @@ span.span_txt.white {
     .content{
         padding: 64px 20px 0 20px;
     }
+    .contact-sec {
+        border-radius: 20px !important;
+        padding-top: 25px;
+    }
 }
 
 @media (max-width: 480px) {
